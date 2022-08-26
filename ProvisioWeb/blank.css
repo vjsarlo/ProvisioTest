@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,500");
+
+/* STYLE GUIDE START*/
+:root {
+  --black: #000000;
+  --wei: #ffffff;
+  --text-color: #957554;
+  --background-grey: #d9d9d9;
+  --highlight-yellow: #dfaa5b;
+  --background-blue: #192537;
+  --font-size-18: 18px; /* Header Links Text */
+  --font-size-20: 20px; /* Footer Links Text */
+  --font-size-24: 24px; /* Login Button Text */
+  --font-size-30: 30px; /* Footer Button Text */
+  --font-size-32: 32px; /* Login Buttons Text */
+  --font-size-36: 36px; /* Main Section Text */
+  
+  --font-family-ubuntu: 'Ubuntu', sans-serif;; /* All Font Used */
+}
+/*Preset Classes  */
+.header-links-style {
+  color: var(--text-color);
+  font-family: var(--font-family-ubuntu);
+  font-size: var(--font-size-18);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.login-button-style {
+  color: var(--wei);
+  font-family: var(--font-family-ubuntu);
+  font-size: var(--font-size-32);
+  font-style: italic;
+  font-weight: 400;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer-links-style {
+  color: var(--wei);
+  font-family: var(--font-family-ubuntu);
+  font-size: var(--font-size-20);
+  font-style: normal;
+  font-weight: 400;
+}
+/* STYLE GUIDE END */
+
+
+
+/* SETTINGS RESET START*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+/* SETTINGS RESET END */
+
+
+
+/* HEADER START */
+
+/* MAIN HEADER START */
+
+/* Logo Header */
+
+/* Header Links */
+
+/* Login/Register Drop Down Header */
+
+/* MAIN HEADER END */
+
+
+
+/* SUB HEADER START */
+
+/* SUB HEADER END */
+
+/* HEADER END */
+
+
+
+/* MAIN PHOTO START */
+
+/* MAIN PHOTO END */
+
+
+
+/* MAIN SECTION START */
+
+/* MAIN SECTION END*/
+
+
+
+/* MAIN CONTENT START */
+
+/* MAIN CONTENT END */
+
+
+
+/* FOOTER START */
+
+/* Footer Logo */
+
+/* Footer Links */
+
+/* Login Button Footer */
+
+/* FOOTER END */
